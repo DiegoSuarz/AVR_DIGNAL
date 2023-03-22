@@ -9,6 +9,8 @@
       <itemPath>usart.h</itemPath>
       <itemPath>lcd_lib.h</itemPath>
       <itemPath>lcd_lib.c</itemPath>
+      <itemPath>ADC.h</itemPath>
+      <itemPath>ADC.c</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
