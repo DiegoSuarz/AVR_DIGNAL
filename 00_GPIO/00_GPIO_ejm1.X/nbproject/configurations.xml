@@ -5,6 +5,10 @@
                    displayName="Header Files"
                    projectFiles="true">
       <itemPath>plantilla.h</itemPath>
+      <itemPath>usart.c</itemPath>
+      <itemPath>usart.h</itemPath>
+      <itemPath>lcd_lib.h</itemPath>
+      <itemPath>lcd_lib.c</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"

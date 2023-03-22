@@ -3,6 +3,9 @@
 #include <util/delay.h>
 #include "lcd_lib.h"
 
+/*
+ RS  -> 
+ */
 int main(void) {
     
     LCDinit();
@@ -14,7 +17,19 @@ int main(void) {
     
     
       
-    while(1);
+    while(1){
+        for(uint8_t i=0;i<15;i++)
+        {
+            LCDshiftRight(1);
+            _delay_ms(1000);
+        }
+        
+           for(uint8_t i=0;i<15;i++)
+        {
+            LCDshiftLeft(1);
+            _delay_ms(1000);
+        }
+    }
     return 0;
 }
 

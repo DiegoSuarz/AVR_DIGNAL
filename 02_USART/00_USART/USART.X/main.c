@@ -4,6 +4,7 @@
 #include <avr/interrupt.h>
 #include <util/delay.h>
 
+
 void init_uart(void)
 {
     DDRD |= (1<<DDRD1); //tx ccomo salida
